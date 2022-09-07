@@ -1,0 +1,1 @@
+A landing page created with HTML and CSS. With a main focus on flexbox and styling. 
