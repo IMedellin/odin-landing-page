@@ -138,3 +138,55 @@ blockquote {
 #quoteAuthor {
   font-weight: bold;
 }
+
+
+/*
+  Call to action section
+*/
+
+.signUpSection {
+  margin: 36px;
+}
+
+
+.actionContainer {
+  background-color: #3882F6;
+  border-radius: 7.5px;
+  color: white;
+  height: 100px;
+  width: 1000px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.actionTextContainer {
+  margin: 25px 0;
+}
+
+#action {
+  font-size: 19px;
+  margin: 0;
+  font-weight: bold;
+}
+
+#actionDescription {
+  margin: 0;
+}
+
+
+/* 
+  footer
+*/
+
+footer {
+  text-align: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 25px
+}
