@@ -165,6 +165,14 @@ blockquote {
   gap: 15px;
 }
 
+.container button {
+  background-color: #3882F6;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid white;
+  width: 100px
+}
+
 .actionTextContainer {
   margin: 25px 0;
 }
