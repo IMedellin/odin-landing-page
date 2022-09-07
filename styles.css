@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+}
+
+.logo {
+  margin: auto;
+  font-size: 25px;
+  color: #F9FAF8
+}
+
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
+  margin: auto;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.links li {
+  margin: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerDescription {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.headerDescription img {
+  height: 200px;
+  width: 275px;
+  margin: auto;
+}
+
+.description h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin-bottom: 0;
+}
+
+.description button {
+  background-color: #3882F6;
+  border-radius: 5px;
+  color: white;
+  border-color: #3882F6;
+  width: 100px
+}
+
+.description p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.description {
+  width: 400px;
+  margin: auto;
+}
+
+/*
+Second section CSS
+*/
+
+.infoSection h2 {
+  width: auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  margin-bottom: 15px;
+}
+
+.figureContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 150px;
+  border-radius: 5px;
+  border: 3px solid #3882F6;
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+  width: 150px
+}
+
+
+/* 
+  third section
+*/
+
+blockquote {
+  text-align: center;
+}
+
+
+.quoteSection {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#quote {
+  font-size: 36px;
+  font-style: italic;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+#quoteAuthor {
+  font-weight: bold;
+}
